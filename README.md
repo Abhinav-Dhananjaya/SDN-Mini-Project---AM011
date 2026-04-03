@@ -50,6 +50,9 @@ Observation: Hosts cannot resolve ARP, resulting in "Destination Host Unreachabl
 
 Result: pingall shows 100% dropped packets.
 
+Proof: <img width="1366" height="768" alt="Screenshot (1064)" src="https://github.com/user-attachments/assets/6cb848ed-b469-4e3b-91a0-810d8b8c7ca5" />
+
+
 
 5. Performance Observation
 Latency: Initial pings may show higher latency as the controller learns host locations; subsequent pings are faster due to the populated ARP table.
