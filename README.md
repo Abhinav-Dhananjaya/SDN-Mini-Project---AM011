@@ -3,7 +3,7 @@ SDN ARP Handler - Project 6
 In traditional networking, switches broadcast ARP requests to all ports, which can lead to unnecessary traffic. This project implements an SDN-based ARP Proxy using the POX controller. The controller intercepts ARP requests, learns host locations (IP-to-MAC mappings), and generates ARP replies directly, reducing broadcast traffic and validating secure communication within a Mininet topology.
 
 2. Setup and Execution Steps
-This project was developed on an MSI laptop using a Dell laptop server running Ubuntu on Windows.
+This project was developed on a Dell laptop server running Ubuntu on Windows.
 
 Prerequisites
 Mininet: Network emulator.
